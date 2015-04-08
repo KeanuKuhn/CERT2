@@ -7,18 +7,21 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
+
 namespace sickgame
 {
     class player
     {
         Texture2D texture;
+        Texture2D ammop;
         Rectangle playerpos;
         Bulletmanager m_manRef;
         int jump;
+        int ammo2;
         bool btimer;
         int runtimer;
         int momentum;
+        int ammo;
         int m_timer;
 
 
@@ -29,12 +32,16 @@ namespace sickgame
             playerpos.Y = 920;
             playerpos = new Rectangle(playerpos.X, playerpos.Y, 90, 90);
             texture = Game1.content.Load<Texture2D>("P.idle");
+            ammop = Game1.content.Load<Texture2D>("pstill");
             btimer = false;
             m_timer = 0;
+            ammo2 = 200;
+            ammo = 50;
         }
 
         public void update()
         {
+
             //momentum / player maintains momentum in air
 
             m_timer += 1;
@@ -100,8 +107,11 @@ namespace sickgame
             }
 
             if (Keyboard.GetState().IsKeyDown(Keys.Space)
-                && btimer == false)
+                && btimer == false
+                && ammo >= 1)
             {
+                ammo2 -= 4;
+                ammo -= 1;
                 m_manRef.AddBullet(new Point(playerpos.X + 32, playerpos.Y + 35));
                 btimer = true;
             }
@@ -153,6 +163,7 @@ namespace sickgame
         public void draw()
         {
             Game1.spriteBatch.Draw(texture, new Rectangle(playerpos.X, playerpos.Y, 72, 92), Color.White);
+            Game1.spriteBatch.Draw(ammop, new Rectangle(10, 10, ammo2, 30), Color.White);
         }
     }
 }
