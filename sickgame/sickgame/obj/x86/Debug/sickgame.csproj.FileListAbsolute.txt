@@ -1,0 +1,59 @@
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\sickgame.exe
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\sickgame.pdb
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\MonoGame.Framework.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.XAudio2.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D11.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.DXGI.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct2D1.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\Lidgren.Network.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.XInput.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.RawInput.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.dll
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.XAudio2.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D11.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.DXGI.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct2D1.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.XInput.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.RawInput.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.xml
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\obj\x86\Debug\sickgame.exe
+c:\users\cert2it\documents\visual studio 2012\Projects\sickgame\sickgame\obj\x86\Debug\sickgame.pdb
+C:\Users\cert2it\Documents\Visual Studio 2012\Projects\sickgame\sickgame\bin\Windows\Debug\Content\player.png
+I:\sickgame\sickgame\obj\x86\Debug\sickgame.exe
+I:\sickgame\sickgame\obj\x86\Debug\sickgame.pdb
+I:\sickgame\sickgame\bin\Windows\Debug\Content\player.png
+I:\sickgame\sickgame\bin\Windows\Debug\sickgame.exe
+I:\sickgame\sickgame\bin\Windows\Debug\sickgame.pdb
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.XAudio2.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D11.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.DXGI.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct2D1.dll
+I:\sickgame\sickgame\bin\Windows\Debug\Lidgren.Network.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.XInput.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.RawInput.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.dll
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.XAudio2.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D11.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.DXGI.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct2D1.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.XInput.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.RawInput.xml
+I:\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.xml
+I:\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
+I:\sickgame\sickgame\bin\Windows\Debug\Content\floor.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\bullet.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\player-bullet.gif
+I:\sickgame\sickgame\bin\Windows\Debug\Content\P.idle.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\P.run.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\P.shoot.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\mp.png
+I:\sickgame\sickgame\bin\Windows\Debug\Content\pstill.png
