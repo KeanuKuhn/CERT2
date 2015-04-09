@@ -6,7 +6,6 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
 namespace sickgame
@@ -65,7 +64,7 @@ namespace sickgame
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             m_ms = new menustate();
-            m_gs = new gamestate();
+            m_gs = new gamestate(content);
             m_gos = new gameoverstate();
             m_state = states.menu;
 
@@ -97,7 +96,7 @@ namespace sickgame
                         m_ms.update(gameTime);
                         if (m_ms.m_switch == true)
                         {
-                            m_gs = new gamestate();
+                            m_gs = new gamestate(content);
 
                         }
                         break;

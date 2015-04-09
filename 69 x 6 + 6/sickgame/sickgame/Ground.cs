@@ -7,53 +7,31 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
 namespace sickgame
 {
     class ground
     {
         Texture2D texture;
         Point groundpos;
-        int bg_playerposX;
-        bool edgescreen;
 
-        public ground()
+        player currentPlayer;
+
+        public ground(player a_currentPlayer)
         {
-            texture = Game1.content.Load<Texture2D>("ground");
-            edgescreen = false;
+            texture = Game1.content.Load<Texture2D>("ground2");
+            currentPlayer = a_currentPlayer;
         }
-        public void update()
+        public void update(player a_currentPlayer)
         {
-            if (Keyboard.GetState().IsKeyDown(Keys.D)
-                && Keyboard.GetState().IsKeyUp(Keys.Space)
-                && edgescreen == false)
-            {
-                bg_playerposX += 7;
-            }
-            if (Keyboard.GetState().IsKeyDown(Keys.A)
-                && Keyboard.GetState().IsKeyUp(Keys.Space)
-                && edgescreen == false)
-            {
-                bg_playerposX -= 3;
-            }
-            if (bg_playerposX > 1280)
-            {
-                edgescreen = true;
-            }
-            if (edgescreen == true)
+            if (a_currentPlayer.playeredgescreen == true)
             {
                 groundpos.X -= 10;
-                bg_playerposX -= 10;
-            }
-            if (bg_playerposX <= 100)
-            {
-                edgescreen = false;
             }
         }
 
         public void draw()
         {
-            Game1.spriteBatch.Draw(texture, new Rectangle(groundpos.X, 582, 1280, 138), Color.White);
+            Game1.spriteBatch.Draw(texture, new Rectangle(groundpos.X, 582, 3840, 138), Color.White);
         }
     }
 }

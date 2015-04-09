@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Audio;
 namespace sickgame
 {
@@ -15,18 +14,20 @@ namespace sickgame
     {
         player p1;
         ground g1;
+        block b1;
         Background bg;
         Bulletmanager m_pbulletmanager;
         //enemy e1;
         //enemy2 e2;
         //enemy3 e3;
 
-        public gamestate()
+        public gamestate(ContentManager content)
         {
             m_pbulletmanager = new Bulletmanager();
             p1 = new player(m_pbulletmanager);
-            g1 = new ground();
+            g1 = new ground(p1);
             bg = new Background();
+            b1 = new block(content);
             //e1 = new enemy(Content);
             //e2 = new enemy2(Content);
             //e3 = new enemy3(Content);
@@ -35,7 +36,8 @@ namespace sickgame
         {
             p1.update();
             bg.update();
-            g1.update();
+            b1.update();
+            g1.update(p1);
             //e1.update();
             //e2.update();
             //e3.update();
@@ -45,6 +47,7 @@ namespace sickgame
         {
             bg.draw();
             p1.draw();
+            b1.draw();
             g1.draw();
             m_pbulletmanager.draw();
             //e1.draw(spriteBatch);
