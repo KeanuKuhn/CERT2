@@ -52,7 +52,11 @@ namespace sickgame
                
                 if (p1.playerpos.Intersects(enemyRect)) 
                 {
+<<<<<<< HEAD
                     p1.playerpos = 10;
+=======
+                   
+>>>>>>> 8e8ba763b4e731e790a41d8aa0a73166464c2fdc
                     return;
                 }
             }
@@ -68,7 +72,10 @@ namespace sickgame
 
                 if (p1.playerpos.Intersects(blockRect))
                 {
+<<<<<<< HEAD
                     p1.playerpos = 10;
+=======
+>>>>>>> 8e8ba763b4e731e790a41d8aa0a73166464c2fdc
                     return;
                 }
             }

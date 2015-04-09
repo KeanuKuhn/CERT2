@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
-using Microsoft.Xna.Framework.GamerServices;
+
 #endregion
 
 namespace sickgame
@@ -19,8 +19,18 @@ namespace sickgame
         public static GraphicsDeviceManager graphics;
         public static SpriteBatch spriteBatch;
         public static ContentManager content;
+
+        enum state
+        {
+            menustate,
+            gamestate,
+        }
+        static state curentstate;
+
+
         player p1;
         ground g1;
+        Texture2D menu;
         Bulletmanager m_pbulletmanager;
         //enemy e1;
         //enemy2 e2;
@@ -46,6 +56,7 @@ namespace sickgame
             // TODO: Add your initialization logic here
             content = Content;
             base.Initialize();
+            menu = Content.Load<Texture2D>("floor");
 
         }
 
@@ -84,14 +95,41 @@ namespace sickgame
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            switch (curentstate)
+            {   //menu and game states
+                case state.menustate:
+                    {
+                        //update the menu 
+                        updatemenu();
+                        break;
+                    }
+                case state.gamestate:
+                    {
+                        //update the menu
+
+                        updategame();
+                        break;
+                    }
+            }
+
+            // TODO: Add your update logic here
+
+            base.Update(gameTime);
+        }
+        void updatemenu()
+        {
+            if (Keyboard.GetState().IsKeyDown(Keys.Enter))
+            {
+                curentstate = state.gamestate;
+            }
+        }
+        void updategame()
+        {
             p1.update();
             //e1.update();
             //e2.update();
             //e3.update();
             m_pbulletmanager.update();
-            // TODO: Add your update logic here
-
-            base.Update(gameTime);
         }
 
         /// <summary>
@@ -102,16 +140,40 @@ namespace sickgame
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
+            switch (curentstate)
+            {   //menu and game states
+                case state.menustate:
+                    {
+                        //update the menu 
+                        drawmenu();
+                        break;
+                    }
+                case state.gamestate:
+                    {
+                        //update the menu
+
+                        drawgame();
+                        break;
+                    }
+            }
+            spriteBatch.End();
+            // TODO: Add your drawing code here
+
+            base.Draw(gameTime);
+        }
+        void drawmenu()
+        {
+            spriteBatch.Draw(menu, new Rectangle(0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight), Color.White);
+        }
+        void drawgame()
+        {
             p1.draw();
             g1.draw();
             m_pbulletmanager.draw();
             //e1.draw(spriteBatch);
             //e2.draw(spriteBatch);
             //e3.draw(spriteBatch);
-            //spriteBatch.End();
-            // TODO: Add your drawing code here
 
-            base.Draw(gameTime);
         }
     }
 }
