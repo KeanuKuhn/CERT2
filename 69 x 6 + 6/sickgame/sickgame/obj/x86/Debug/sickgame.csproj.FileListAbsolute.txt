@@ -102,3 +102,5 @@ I:\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyRefe
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\P.idle2.png
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\sprintfade.png
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\ground2.png
+C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.exe
+C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.pdb
