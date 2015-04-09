@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
+using Microsoft.Xna.Framework.GamerServices;
 #endregion
 
 namespace sickgame
@@ -44,6 +45,8 @@ namespace sickgame
             graphics.PreferredBackBufferHeight = 720;
             Content.RootDirectory = "Content";
             this.Window.Title = "69 x 6 + 6";
+            //graphics.SynchronizeWithVerticalRetrace = false;
+            IsFixedTimeStep = false;
         }
 
         /// <summary>
@@ -72,8 +75,12 @@ namespace sickgame
 
 
             m_ms = new menustate();
+<<<<<<< HEAD
             //m_gs = new gamestate(content, CollisionManager a_block);
             m_gs = new gamestate(content);           
+=======
+            m_gs = new gamestate();
+>>>>>>> 4b934022421c14ad506cc631d4eb97a7cdc52ca4
             m_gos = new gameoverstate();
             m_state = states.menu;
 
@@ -105,7 +112,12 @@ namespace sickgame
                         m_ms.update(gameTime);
                         if (m_ms.m_switch == true)
                         {
+<<<<<<< HEAD
                             m_state = states.game;
+=======
+                            m_gs = new gamestate();
+
+>>>>>>> 4b934022421c14ad506cc631d4eb97a7cdc52ca4
                         }
                         break;
                     }

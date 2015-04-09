@@ -15,10 +15,8 @@ namespace sickgame
     {
         bool move;
         bool move2;
-        public int width = 70;
-        public int height = 70;
         Texture2D bad;
-        public Point position;
+        Point position;
 
         public enemy(ContentManager content)
         {

@@ -101,8 +101,10 @@ I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.xml
 I:\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\P.idle2.png
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\sprintfade.png
+I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\ground2.png
 C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.exe
 C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.pdb
+<<<<<<< HEAD
 C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
 C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\ammo.png
 C:\Users\cert2it.AIE.EDU.AU\Desktop\New qwe\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\bullet.png
@@ -182,3 +184,5 @@ C:\Users\cert2it\Desktop\cert2project\69 x 6 + 6\sickgame\sickgame\bin\Windows\D
 C:\Users\cert2it\Desktop\cert2project\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\cert2it\Desktop\cert2project\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\cert2it\Desktop\cert2project\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> 4b934022421c14ad506cc631d4eb97a7cdc52ca4

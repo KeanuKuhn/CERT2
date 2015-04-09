@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
+using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Audio;
 namespace sickgame
 {
@@ -14,7 +15,6 @@ namespace sickgame
     {
         player p1;
         ground g1;
-        block b1;
         Background bg;
         Bulletmanager m_pbulletmanager;
         CollisionManager m_collsionManager;
@@ -23,8 +23,12 @@ namespace sickgame
         //enemy2 e2;
         //enemy3 e3;
 
+<<<<<<< HEAD
         //public gamestate(ContentManager content, CollisionManager block)
         public gamestate(ContentManager content)    
+=======
+        public gamestate()
+>>>>>>> 4b934022421c14ad506cc631d4eb97a7cdc52ca4
         {
             m_pbulletmanager = new Bulletmanager();
             p1 = new player(m_pbulletmanager);
@@ -33,8 +37,11 @@ namespace sickgame
 
             g1 = new ground(p1);
             bg = new Background();
+<<<<<<< HEAD
             b1 = new block(content);
             m_collsionManager.AddBlock(b1);
+=======
+>>>>>>> 4b934022421c14ad506cc631d4eb97a7cdc52ca4
             //e1 = new enemy(Content);
             //e2 = new enemy2(Content);
             //e3 = new enemy3(Content);
@@ -43,7 +50,6 @@ namespace sickgame
         {
             p1.update();
             bg.update();
-            b1.update();
             g1.update(p1);
             //e1.update();
             //e2.update();
@@ -56,7 +62,6 @@ namespace sickgame
         {
             bg.draw();
             p1.draw();
-            b1.draw();
             g1.draw();
             m_pbulletmanager.draw();
             //e1.draw(spriteBatch);

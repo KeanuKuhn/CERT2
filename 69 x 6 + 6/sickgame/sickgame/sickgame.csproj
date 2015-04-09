@@ -36,10 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Background.cs" />
-    <Compile Include="block.cs" />
     <Compile Include="bullet.cs" />
     <Compile Include="Bulletmanager.cs" />
-    <Compile Include="CollisionManager.cs" />
     <Compile Include="enemy.cs" />
     <Compile Include="enemy2.cs" />
     <Compile Include="enemy3.cs" />
