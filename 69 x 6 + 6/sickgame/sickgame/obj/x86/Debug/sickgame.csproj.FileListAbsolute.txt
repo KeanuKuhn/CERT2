@@ -101,3 +101,4 @@ I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\SharpDX.Direct3D9.xml
 I:\69 x 6 + 6\sickgame\sickgame\obj\x86\Debug\sickgame.csprojResolveAssemblyReference.cache
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\P.idle2.png
 I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\sprintfade.png
+I:\69 x 6 + 6\sickgame\sickgame\bin\Windows\Debug\Content\ground2.png

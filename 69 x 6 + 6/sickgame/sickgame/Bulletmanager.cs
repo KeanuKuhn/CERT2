@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.GamerServices;
 
 namespace sickgame
 {
-    class Bulletmanager
+    public class Bulletmanager
     {
         List<bullet> m_bulletList;
 
@@ -39,10 +39,6 @@ namespace sickgame
             {
                 m_bulletList[i].draw();
             }
-        }
-        public List<bullet> bulletList
-        {
-            get { return m_bulletList; }
         }
 
         public void AddBullet(Point point)

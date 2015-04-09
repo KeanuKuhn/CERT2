@@ -10,11 +10,11 @@ using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.GamerServices;
 namespace sickgame
 {
-    class player
+    public class player
     {
         Texture2D texture;
         Texture2D portrait;
-        Rectangle playerpos;
+        public Rectangle playerpos;
         Texture2D ammop;
         Texture2D healthp;
         Bulletmanager m_manRef;
@@ -23,7 +23,7 @@ namespace sickgame
         int runtimer;
         int momentum;
         int m_timer;
-        bool playeredgescreen;
+        public bool playeredgescreen;
         int ammo;
         int ammotimer;
         int health;
@@ -188,7 +188,7 @@ namespace sickgame
                 playerpos.Y = 490;
             }
             //edge screen
-            if (playerpos.X > 1280)
+            if (playerpos.X >= 1280)
             {
                 playeredgescreen = true;
                 momentum = 0;
@@ -197,7 +197,7 @@ namespace sickgame
             {
                 playerpos.X -= 10;
             }
-            if (playerpos.X < 100)
+            if (playerpos.X <= 0)
             {
                 playeredgescreen = false;
             }

@@ -25,7 +25,7 @@ namespace sickgame
         {
             m_pbulletmanager = new Bulletmanager();
             p1 = new player(m_pbulletmanager);
-            g1 = new ground();
+            g1 = new ground(p1);
             bg = new Background();
             //e1 = new enemy(Content);
             //e2 = new enemy2(Content);
@@ -35,7 +35,7 @@ namespace sickgame
         {
             p1.update();
             bg.update();
-            g1.update();
+            g1.update(p1);
             //e1.update();
             //e2.update();
             //e3.update();

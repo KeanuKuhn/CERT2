@@ -39,6 +39,8 @@ namespace sickgame
             graphics.PreferredBackBufferHeight = 720;
             Content.RootDirectory = "Content";
             this.Window.Title = "69 x 6 + 6";
+            //graphics.SynchronizeWithVerticalRetrace = false;
+            IsFixedTimeStep = false;
         }
 
         /// <summary>
